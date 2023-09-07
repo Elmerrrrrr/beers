@@ -1,0 +1,68 @@
+
+// Overwrite media queries for the cards
+.custom-card {
+  @media (max-width: 767px) {
+    width: 350px;
+    justify-self: center;
+  }
+
+  @media (min-width: 768px) and (max-width: 1399px) {
+    width: 300px;
+  }
+
+  @media (min-width: 1400px) {
+    width: 100%;
+  }
+}
+
+// Dropdown search input
+#input-group-dropdown-1 {
+  color:#fff;
+}
+
+// Card header
+.custom-header {
+  background-color: #0dcaf0 !important;
+  color:#fff !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+// Page title
+.custom-brand-name {
+  color: #0dcaf0 !important;
+  font-weight: bold;
+}
+
+// Overwrite Pagination
+.custom-pagination {
+    .page-link {
+        position: relative;
+        list-style: none;
+        display: block;
+        padding: 10px 10px;
+        font-size: 15px;
+        color: #333;
+        text-decoration: none;
+        background-color: 248,249,250;
+        border: 1px solid #d4d8de;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  
+      &:hover {
+        background-color: #0dcaf0;
+        color: #fff;
+        border: 1px solid #0dcaf0;
+      }
+      
+    }
+    .page-item {
+        list-style: none;
+    }
+
+}
+// Active element in pagination
+.custom-pagination .active>.page-link, .page-link.active {
+    color: white;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
