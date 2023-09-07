@@ -60,7 +60,7 @@ const PagePagination: React.FC = (): JSX.Element => {
 
   return (
     <Pagination
-      className="d-flex justify-content-center"
+      className="d-flex justify-content-center mb-5"
       bsPrefix="custom-pagination"
     >
       <Pagination.First onClick={() => goToPage(1)} />

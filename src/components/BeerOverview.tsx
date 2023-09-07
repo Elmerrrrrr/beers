@@ -79,7 +79,7 @@ const BeerOverview: React.FC = () => {
             </>
           )}
         </Row>
-        <Row xs={1} md={2} className="my-5 d-flex justify-content-center">
+        <Row xs={1} md={2} className="mt-5 d-flex justify-content-center">
           <PagePagination />
         </Row>
       </Container>

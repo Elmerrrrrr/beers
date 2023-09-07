@@ -40,11 +40,11 @@
         position: relative;
         list-style: none;
         display: block;
-        padding: 10px 10px;
+        padding: 10px 12px;
         font-size: 15px;
         color: #333;
         text-decoration: none;
-        background-color: 248,249,250;
+        background-color: #fff;
         border: 1px solid #d4d8de;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   
@@ -57,12 +57,20 @@
     }
     .page-item {
         list-style: none;
+        background-color: #fff;
     }
 
 }
 // Active element in pagination
 .custom-pagination .active>.page-link, .page-link.active {
-    color: white;
-    background-color: #0dcaf0;
-    border-color: #0dcaf0;
+  color: white;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+#root {
+  background-image: url("../../public/img/beer-bg-400.png");
+  background-size: contain;
+  background-repeat: repeat;
+  background-size: 400px 400px;
 }
